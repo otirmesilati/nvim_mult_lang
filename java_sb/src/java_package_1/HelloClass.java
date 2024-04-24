@@ -18,10 +18,16 @@ public static int functionTwo(){
 
   }
 
+public static String functionThree(){
+
+    return "words";
+
+  }
   public static void main (String args[]){
 
     System.out.println("Hello!");
     System.out.println(functionTwo());
+    System.out.println(functionThree());
 
     functionOne();
 
