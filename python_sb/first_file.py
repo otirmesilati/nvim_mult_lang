@@ -6,4 +6,7 @@ def second_function():
     return 1
 
 
-first_function()
+def third_function():
+    return 2 + 3
+
+
