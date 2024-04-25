@@ -22,8 +22,14 @@ def second_function():
 
 
 def third_function():
+    def mystery_func_1():
+        return 1
+
+    def mystery_func_2():
+        return 2
+
     a = 1
     if a > 0:
-        pass
+        return mystery_func_1()
     else:
-        pass
+        return mystery_func_2()
