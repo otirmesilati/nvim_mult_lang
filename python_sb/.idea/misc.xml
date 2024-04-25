@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Black">
+    <option name="sdkName" value="Python 3.9 (python_sb)" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="c76b6d30-50d5-4b06-a814-d980ec50ea9e" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.9 (python_sb)" project-jdk-type="Python SDK" />
+</project>
