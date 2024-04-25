@@ -13,6 +13,7 @@ def print_hi(name):
 
 def things_to_do_function():
     print(second_file.first_function())
+    print(second_file.second_function())
 
 
 # Press the green button in the gutter to run the script.
