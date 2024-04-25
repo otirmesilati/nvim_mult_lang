@@ -1,4 +1,5 @@
 import first_file
+import second_file
 
 
 def print_hi(name):
@@ -10,8 +11,13 @@ def print_hi(name):
     first_file.fifth_function()
 
 
+def things_to_do_function():
+    print(second_file.first_function())
+
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
+    things_to_do_function()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
