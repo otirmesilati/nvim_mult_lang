@@ -19,3 +19,11 @@ def second_function():
         return return_five(increment)    
 
     return sending_function()
+
+
+def third_function():
+    a = 1
+    if a > 0:
+        pass
+    else:
+        pass
