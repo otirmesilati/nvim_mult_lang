@@ -6,7 +6,7 @@ def print_hi(name):
     print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
     print(first_file.second_function())
     print(first_file.third_function())
-
+    print(first_file.fourth_function())
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':

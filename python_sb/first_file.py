@@ -10,3 +10,6 @@ def third_function():
     return 2 + 3
 
 
+def fourth_function():
+    x = 4
+    return x
