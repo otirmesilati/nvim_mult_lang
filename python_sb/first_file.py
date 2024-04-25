@@ -13,3 +13,7 @@ def third_function():
 def fourth_function():
     x = 4
     return x
+
+
+def fifth_function():
+    print(fourth_function())
