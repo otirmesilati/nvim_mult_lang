@@ -36,6 +36,7 @@ public class InheritanceClass {
 
     static private int cant_use_outside(){
 
+      System.out.println("Though suprisingly, we're still inside!");
       return 3;
 
   
