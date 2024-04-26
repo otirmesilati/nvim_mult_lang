@@ -34,14 +34,22 @@ public class InheritanceClass {
 
     }
 
-  }
+    static private int cant_use_outside(){
+
+      return 3;
+
   
+  }
+}
+
 	public static void main(String[] args) {
-		
+	
+
     System.out.println("The three parameters of the first class: \n");
     System.out.println(firstClass.firstInt + ", " + firstClass.firstChar + ", " + firstClass.firstString);
     System.out.println(secondClass.secondStringFunction());
     System.out.println(thirdClass.first_function());
-	}
-
+	  System.out.println(thirdClass.cant_use_outside());
+    
+    }
 }
