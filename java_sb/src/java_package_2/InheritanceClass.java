@@ -22,9 +22,15 @@ public class InheritanceClass {
 
   private class thirdClass {
 
-    static public int first_function(){
+    static private int deliv_function(){
 
       return 2;
+    
+    }
+
+    static public int first_function(){
+    
+      return deliv_function();
 
     }
 
