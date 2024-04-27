@@ -33,3 +33,6 @@ def third_function():
         return mystery_func_1()
     else:
         return mystery_func_2()
+
+def fourth_function():
+    pass
