@@ -34,5 +34,7 @@ def third_function():
     else:
         return mystery_func_2()
 
+
 def fourth_function():
-    pass
+    for _ in range(0, 10, 2):
+        print(_)

@@ -15,7 +15,7 @@ def things_to_do_function():
     print(second_file.first_function())
     print(second_file.second_function())
     print(second_file.third_function())
-
+    second_file.fourth_function()
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
