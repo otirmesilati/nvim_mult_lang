@@ -6,7 +6,7 @@ package java_package_2;
 /**
  * 
  */
-public abstract class book {
+public abstract class Book {
 
 
   public String genre;
