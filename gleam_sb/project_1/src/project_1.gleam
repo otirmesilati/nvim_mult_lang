@@ -1,8 +1,8 @@
 import gleam/io
 
-// pub fn hello () {io.println("Hello!")}
+pub fn hello () {io.println("Hello!")}
 
 pub fn main() {
-  // hello()
+  hello()
   io.println(" From Gleam :D")
 }
