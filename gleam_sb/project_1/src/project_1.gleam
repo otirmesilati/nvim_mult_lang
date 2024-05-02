@@ -4,7 +4,7 @@ pub fn hello () {io.println("Hello!")}
 
 pub fn first_function(x : Int)
 {
-  x
+   x + 2
 }
 
 pub fn main() {
