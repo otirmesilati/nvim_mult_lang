@@ -28,6 +28,7 @@ public static String functionThree(){
     System.out.println("Hello!");
     System.out.println(functionTwo());
     System.out.println(functionThree());
+    System.out.println("Checking snippets");
 
     functionOne();
 
