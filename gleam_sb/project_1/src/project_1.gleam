@@ -17,6 +17,8 @@ pub fn third_function(x: Float, y : Float)
   second_function(first_function(x), first_function(y))
 }
 
+pub fn fourthfunction() {}
+
 pub fn main() {
   hello()
   io.println(" From Gleam :D")
