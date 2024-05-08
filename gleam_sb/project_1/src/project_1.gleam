@@ -17,13 +17,11 @@ pub fn third_function(x: Float, y : Float)
   second_function(first_function(x), first_function(y))
 }
 
-pub fn fourthfunction() {}
-
 pub fn main() {
   hello()
   io.println(" From Gleam :D")
   io.print(" This is the function's output: ")
-  io.debug(first_function(1.00))
+  io.debug(first_function(10_000_000.00))
   io.print("And the other function's output: ")
   io.debug(third_function(2.00 , 3.00))
 }
