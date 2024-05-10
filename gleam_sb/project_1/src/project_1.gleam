@@ -26,6 +26,7 @@ pub fn main() {
   hello()
   io.println(" From Gleam :D")
   io.print(" This is the function's output: ")
+  io.print(" Hello world ")
   io.debug(first_function(10_000_000.00))
   io.debug(fourth_function(0o33))
   io.debug(fourth_function(0xFA))
