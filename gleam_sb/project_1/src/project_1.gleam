@@ -22,6 +22,11 @@ pub fn fourth_function(x: Int)
   x
 }
 
+pub fn fifth_function() 
+{
+  True
+}
+
 pub fn main() {
   hello()
   io.println(" From Gleam :D")
@@ -32,4 +37,5 @@ pub fn main() {
   io.debug(fourth_function(0xFA))
   io.print("And the other function's output: ")
   io.debug(third_function(2.00 , 3.00))
+  io.debug(fifth_function())
 }
