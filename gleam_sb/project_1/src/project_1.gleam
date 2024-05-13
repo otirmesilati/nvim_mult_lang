@@ -27,6 +27,8 @@ pub fn fifth_function()
   True
 }
 
+pub fn sixth_functioin(_x: Int){5}
+
 pub fn main() {
   hello()
   io.println(" From Gleam :D")
