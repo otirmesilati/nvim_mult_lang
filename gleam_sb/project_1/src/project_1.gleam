@@ -48,4 +48,5 @@ pub fn main() {
   io.debug(third_function(2.00 , 3.00))
   io.debug(fifth_function() || False)
   io.debug(seventh_function(4))
+  io.debug(eighth_functuion())
 }
