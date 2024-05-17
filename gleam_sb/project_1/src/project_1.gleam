@@ -34,6 +34,7 @@ pub fn sixth_functioin(_x: Int){5}
 
 pub fn seventh_function(x: MyInt){x}
 
+pub fn eighth_functuion() {[1,2,3,4]}
 
 pub fn main() {
   hello()
