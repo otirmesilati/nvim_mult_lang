@@ -54,4 +54,5 @@ pub fn main() {
   io.debug(fifth_function() || False)
   io.debug(seventh_function(4))
   io.debug(eighth_functuion())
+  io.debug(ninth_function([1,2]))
 }
