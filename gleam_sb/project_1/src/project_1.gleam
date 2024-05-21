@@ -36,6 +36,11 @@ pub fn seventh_function(x: MyInt){x}
 
 pub fn eighth_functuion() {[1,2,3,4]}
 
+pub fn ninth_function(listy: List(Int)) 
+{
+  [0, ..listy]
+}
+
 pub fn main() {
   hello()
   io.println(" From Gleam :D")
